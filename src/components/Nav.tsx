@@ -1,4 +1,4 @@
-const NAV_LINKS = ['Reports', 'Talks', 'Specialties', 'Current Projects', 'Contact']
+const NAV_LINKS = ['Publications', 'Specialties', 'Current Projects', 'Contact']
 
 export default function Nav() {
   return (

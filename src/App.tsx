@@ -1,6 +1,7 @@
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Section from '@/components/Section'
+import Publications from '@/components/Publications'
 import Contact from '@/components/Contact'
 
 export default function App() {
@@ -11,17 +12,7 @@ export default function App() {
       <main>
         <Hero />
 
-        <Section id="reports" title="Reports">
-          <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
-            Coming soon — research and writing on design, product, and the industry.
-          </p>
-        </Section>
-
-        <Section id="talks" title="Talks">
-          <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
-            Coming soon — conference talks, panels, and presentations.
-          </p>
-        </Section>
+        <Publications />
 
         <Section id="specialties" title="Specialties">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
