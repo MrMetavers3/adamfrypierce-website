@@ -1,7 +1,8 @@
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
-import Section from '@/components/Section'
+import FeaturedReport from '@/components/FeaturedReport'
 import Publications from '@/components/Publications'
+import Section from '@/components/Section'
 import Contact from '@/components/Contact'
 
 export default function App() {
@@ -11,6 +12,8 @@ export default function App() {
 
       <main>
         <Hero />
+
+        <FeaturedReport />
 
         <Publications />
 
