@@ -5,17 +5,15 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col justify-end pb-24 px-8 md:px-16 lg:px-24 overflow-hidden">
       <AuraBackground />
       <div className="relative z-10 max-w-4xl">
-        <h1 className="text-6xl md:text-8xl font-medium leading-[1.05] tracking-tight mb-10">
-          I build products
+        <h1 className="text-6xl md:text-8xl font-medium leading-[1.05] tracking-tight">
+          Building <span className="text-primary">products</span>
           <br />
-          with agents. I help
+          with <span className="text-primary">AI agents.</span>
           <br />
-          <span className="text-primary">teams do the same.</span>
+          I help teams to do
+          <br />
+          the same.
         </h1>
-        <div className="text-base text-muted-foreground leading-relaxed">
-          <p>Building valuable products and systems with agents.</p>
-          <p>Writing about what I learn.</p>
-        </div>
       </div>
     </section>
   )
