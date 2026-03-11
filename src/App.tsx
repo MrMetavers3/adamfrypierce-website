@@ -1,3 +1,4 @@
+import AuraBackground from '@/components/AuraBackground'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import FeaturedReport from '@/components/FeaturedReport'
@@ -8,13 +9,12 @@ import Contact from '@/components/Contact'
 export default function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <AuraBackground />
       <Nav />
 
       <main>
         <Hero />
-
         <FeaturedReport />
-
         <Publications />
 
         <Section id="specialties" title="Specialties">
@@ -29,7 +29,7 @@ export default function App() {
             ].map((specialty) => (
               <div
                 key={specialty}
-                className="px-5 py-4 rounded-lg border border-border bg-card text-sm font-medium"
+                className="px-5 py-4 rounded-lg border border-border text-sm font-medium"
               >
                 {specialty}
               </div>
@@ -38,8 +38,8 @@ export default function App() {
         </Section>
 
         <Section id="current-projects" title="Current Projects">
-          <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
-            Coming soon — what I'm working on right now.
+          <p className="text-muted-foreground leading-relaxed max-w-xl">
+            Coming soon.
           </p>
         </Section>
 
